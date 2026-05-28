@@ -100,3 +100,34 @@ li{
 
     color:gray;
 }
+
+li button{
+
+    background:#e53e3e;
+
+    padding:8px 12px;
+
+    font-size:14px;
+}
+
+li button:hover{
+
+    background:#c53030;
+}
+
+input:focus{
+
+    outline:none;
+
+    border:2px solid #667eea;
+}
+
+.container{
+
+    transition:0.3s;
+}
+
+.container:hover{
+
+    transform:translateY(-5px);
+}
