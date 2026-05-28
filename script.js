@@ -96,3 +96,15 @@ function loadTasks() {
 
     });
 }
+
+taskInput.addEventListener(
+"keypress",
+function(event){
+
+if(event.key==="Enter"){
+
+addTask();
+
+}
+
+});
